@@ -13,6 +13,9 @@
 		0F6AD6021AE0B51100D965C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6AD6011AE0B51100D965C5 /* Images.xcassets */; };
 		0F6AD6051AE0B51100D965C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6AD6031AE0B51100D965C5 /* LaunchScreen.xib */; };
 		0F6AD6111AE0B51100D965C5 /* CLRegionMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6AD6101AE0B51100D965C5 /* CLRegionMonitorTests.swift */; };
+		0F6AD61B1AE0B5F000D965C5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6AD61A1AE0B5F000D965C5 /* MapKit.framework */; };
+		0F6AD61D1AE0B5F900D965C5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6AD61C1AE0B5F900D965C5 /* CoreLocation.framework */; };
+		0F6AD61F1AE0B89100D965C5 /* KhadaMarket.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0F6AD61E1AE0B89100D965C5 /* KhadaMarket.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		0F6AD60A1AE0B51100D965C5 /* CLRegionMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLRegionMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6AD60F1AE0B51100D965C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F6AD6101AE0B51100D965C5 /* CLRegionMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLRegionMonitorTests.swift; sourceTree = "<group>"; };
+		0F6AD61A1AE0B5F000D965C5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0F6AD61C1AE0B5F900D965C5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0F6AD61E1AE0B89100D965C5 /* KhadaMarket.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KhadaMarket.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6AD61D1AE0B5F900D965C5 /* CoreLocation.framework in Frameworks */,
+				0F6AD61B1AE0B5F000D965C5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,9 @@
 		0F6AD5EC1AE0B51100D965C5 = {
 			isa = PBXGroup;
 			children = (
+				0F6AD61C1AE0B5F900D965C5 /* CoreLocation.framework */,
+				0F6AD61A1AE0B5F000D965C5 /* MapKit.framework */,
+				0F6AD61E1AE0B89100D965C5 /* KhadaMarket.gpx */,
 				0F6AD5F71AE0B51100D965C5 /* CLRegionMonitor */,
 				0F6AD60D1AE0B51100D965C5 /* CLRegionMonitorTests */,
 				0F6AD5F61AE0B51100D965C5 /* Products */,
@@ -161,6 +172,11 @@
 				TargetAttributes = {
 					0F6AD5F41AE0B51100D965C5 = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0F6AD6091AE0B51100D965C5 = {
 						CreatedOnToolsVersion = 6.2;
@@ -193,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6AD6001AE0B51100D965C5 /* Main.storyboard in Resources */,
+				0F6AD61F1AE0B89100D965C5 /* KhadaMarket.gpx in Resources */,
 				0F6AD6051AE0B51100D965C5 /* LaunchScreen.xib in Resources */,
 				0F6AD6021AE0B51100D965C5 /* Images.xcassets in Resources */,
 			);
