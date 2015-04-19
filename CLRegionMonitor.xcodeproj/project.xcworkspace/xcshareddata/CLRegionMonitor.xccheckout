@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>694620D6-33AC-42A6-BF9E-37C009761674</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CLRegionMonitor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E8B9BE9CFE9B769A76B700895C4DD65F576697E</key>
+		<string>https://github.com/AkashSajjad/CLRegionMonitor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CLRegionMonitor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E8B9BE9CFE9B769A76B700895C4DD65F576697E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AkashSajjad/CLRegionMonitor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E8B9BE9CFE9B769A76B700895C4DD65F576697E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E8B9BE9CFE9B769A76B700895C4DD65F576697E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CLRegionMonitor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
